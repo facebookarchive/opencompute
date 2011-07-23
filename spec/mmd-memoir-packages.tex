@@ -1,0 +1,50 @@
+%
+%	Default packages for memoir documents created by MultiMarkdown
+%
+
+\usepackage{fancyvrb}			% Allow \verbatim et al. in footnotes
+\usepackage{graphicx}			% To enable including graphics in pdf's
+\usepackage{booktabs}			% Better tables
+\usepackage{tabulary}			% Support longer table cells
+\usepackage[utf8]{inputenc}		% For UTF-8 support
+\usepackage[T1]{fontenc}		% Use T1 font encoding for accented characters
+\usepackage{xcolor}			% Allow for color (annotations)
+\usepackage[sort&compress]{natbib} % Better bibliography support
+\usepackage{fontspec}
+\setmainfont[Mapping=tex-text]{VistaSlabReg}
+\usepackage{color}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\voffset       -0.25in
+\headheight     0.75in
+\topmargin      -0.5in
+\headsep        0.125in
+\textheight     9.0in
+
+\oddsidemargin  0in
+\evensidemargin 0.0in
+\textwidth      6.5in
+
+\setlength\parindent{0.0in}
+
+\definecolor{ocpblue}{rgb}{0.212,0.373,0.569}
+
+\titleformat{\section}
+{\color{ocpblue}\normalfont\Large\bfseries}{\thesection}{1em}{}
+
+\fancyhead{}
+\fancyhead[LO]{\mbox{\includegraphics[width=1.25in]
+    {../images/OCPlogo_horiz.png}}}
+%\fancyhead[RO]{Open Compute Project $\cdot$ Intel Motherboard $\cdot$ Hardware 2.0}
+\fancyfoot{}
+\makeatletter
+\fancyfoot[LO]{http://opencompute.org}
+\fancyfoot[RO]{\thepage}
+\fancyfoot[LE]{\thepage}
+\fancyfoot[RE]{\today}
+\renewcommand\headrulewidth{0pt}
+\renewcommand\footrulewidth{0pt}
+
+\VerbatimFootnotes

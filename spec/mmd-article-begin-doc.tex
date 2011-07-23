@@ -1,0 +1,42 @@
+%
+%	For setup that must follow metadata included in the document
+%
+
+\definecolor{green}{RGB}{141 193 38}
+
+\usepackage[
+        colorlinks=true,
+        urlcolor=green,
+        linkcolor=green,
+	plainpages=false,
+	pdfpagelabels,
+	pdftitle={\mytitle},
+	pagebackref,
+	pdfauthor={\myauthor},
+	pdfkeywords={\keywords}
+	]{hyperref}
+\usepackage{memhfixc}
+
+
+\input{mmd-title}
+
+
+\begin{document}
+
+\title{}
+\author{}
+
+\mainmatter
+\maketitle
+
+
+% Copyright
+\setlength{\parindent}{0pt}
+
+\ifx\mycopyright\undefined
+\else
+	\textcopyright{} \mycopyright
+\fi
+
+\setlength{\parindent}{1em}
+
