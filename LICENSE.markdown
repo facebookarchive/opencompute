@@ -1,0 +1,1 @@
+Unless specified within a file, all content is made available under the [Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by/3.0/)
