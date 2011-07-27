@@ -791,7 +791,7 @@ The motherboard meets shock and vibration requirements according to the followin
 
 &nbsp;    | Operating | Non-Operating |
 |-------- | --------- | ------------- | 
-Vibration | 0.5g acceleration, 1.5mm amplitude, 5 to 500 Hz, 10 sweeps at 1 octave/minute for each of the three axes (one sweep is 5 to 500 to 5 Hz) | 1g acceleration, 3mm amplitude, 5 to 500 Hz, 10 sweeps at 1 octave/minute for each of the three axes (one sweep is 5 to 500 to 5 Hz)
+Vibration | 0.5g acceleration, 1.5mm amplitude, 5 to 500 Hz, 10 sweeps at 1 octave/minute for each of the three axes (one sweep is 5 to 500 to 5 Hz) | 1g acceleration, 3mm amplitude, 5 to 500 Hz, 10 sweeps at 1 octave/minute for each of the three axes (one sweep is 5 to 500 to 5 Hz) |
 Shock     | 6g, half-sine 11mS, 5 shocks for each of the three axes | 12g, half-sine 11mS, 10 shocks for each of the three axes | 
 [Figure 26 Vibration and Shock Requirements]
 
