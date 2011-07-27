@@ -35,8 +35,8 @@ if __name__ == "__main__":
   # make sure images are present as symlinks in the image directory
   lnames = ['OCPlogo_horiz.png','OCPlogo_vert.png']
   for l in lnames:
-      if os.access('../../spec/images/'+l,os.F_OK) is False:
-          os.symlink('../../spec/images/'+l,'../images/l')
+      if os.access('../images/'+l,os.F_OK) is False:
+          os.symlink('../../alpha/images/'+l,'../images/'+l)
 
   # first convert mmd to latex
   print(mmdcmd+fname)
