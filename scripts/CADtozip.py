@@ -8,8 +8,7 @@ import glob
 import shutil
 
 def createZip(fname,addStep=True):
-    basename = splitext(fname)[0]
-    ext = splitext(fname)[1]
+    basename,ext = splitext(fname)
     print basename,ext
     print ext=='.dxf'
     try:
