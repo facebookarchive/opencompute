@@ -98,26 +98,26 @@ The entry board uses the next generation Intel® platform controller hub (PCH), 
 
 The entry board's PCB stackup and impedance control are defined in the following tables.
 
-Layer | Plane Description  | | Copper (oz) | Thickness (mil) | Dielectric (er) |
------ | -----------------    | ----------- | --------------- | --------------- |
-      |      | Solder Mask   |             | 0.5             | 3.8             |
-L1    | TOP	 | Signal        | 0.5+1.0     | 1.9             |                 |
-      |      | PrePreg		 |             | 2.7             | 3.5             |
-L2    | GND1 | Ground        | 2.0         | 2.6             |                 |
-      |      | Core          |             | 4.0             | 3.7             |
-L3    | IN1  | Signal        | 1.0         | 1.3             |                 |
-      |      | PrePreg       |             | 25.0            | 4.4             |
-L4    | VCC1 | Power         | 2.0         | 2.6             |                 |
-      |      | Core          |             | 4.0             | 4.1             |
-L5    | VCC2 | Power         | 2.0         | 2.6             |                 |
-      |      | PrePreg       |             | 25.0            | 4.4             |
-L6    | IN2  | Signal        | 1.0         | 1.3             |                 |
-      |      | Core          |             | 4.0             | 3.7             |
-L7    | GND2 | Ground        | 2.0         | 2.6             |                 |
-      |      | PrePreg		 |             | 2.7             | 3.5             |
-L8    | BOT  | Signal        | 0.5+1.0     | 1.9             |                 |
-      |      | Solder Mask   |             | 0.5             | 3.8             |
-      |      | Total         |             | 85.2            | Tolerance: +/-8mil |
+Layer | Plane Description   | Copper (oz) | Thickness (mil) | Dielectric (er) |
+----- | -----------------   | ----------- | --------------- | --------------- |
+      |      | Solder Mask  |             | 0.5             | 3.8             |
+L1    | TOP	 | Signal       | 0.5+1.0     | 1.9             |                 |
+      |      | PrePreg		  |             | 2.7             | 3.5             |
+L2    | GND1 | Ground       | 2.0         | 2.6             |                 |
+      |      | Core         |             | 4.0             | 3.7             |
+L3    | IN1  | Signal       | 1.0         | 1.3             |                 |
+      |      | PrePreg      |             | 25.0            | 4.4             |
+L4    | VCC1 | Power        | 2.0         | 2.6             |                 |
+      |      | Core         |             | 4.0             | 4.1             |
+L5    | VCC2 | Power        | 2.0         | 2.6             |                 |
+      |      | PrePreg      |             | 25.0            | 4.4             |
+L6    | IN2  | Signal       | 1.0         | 1.3             |                 |
+      |      | Core         |             | 4.0             | 3.7             |
+L7    | GND2 | Ground       | 2.0         | 2.6             |                 |
+      |      | PrePreg		  |             | 2.7             | 3.5             |
+L8    | BOT  | Signal       | 0.5+1.0     | 1.9             |                 |
+      |      | Solder Mask  |             | 0.5             | 3.8             |
+      |      | Total        |             | 85.2            | Tolerance: +/-8mil |
 [Figure 3 Entry Board PCB Stackup]
 
 
@@ -190,7 +190,7 @@ Layer | Plane Description  | | Copper (oz) | Thickness (mil) | Dielectric (er)  
 ----- | -----------------    | ----------- | --------------- | ------------------ |
       |      | Solder Mask   |             | 0.5             | 3.8                |
 L1    | TOP	 | Signal        | 0.5+1.0     | 1.9             |                    |
-      |      | PrePreg		 |             | 2.7             | 3.5                |
+      |      | PrePreg		   |             | 2.7             | 3.5                |
 L2    | GND1 | Ground        | 1.0         | 1.3             |                    |
       |      | Core          |             | 4.0             | 3.6                |
 L3    | IN1  | Signal        | 1.0         | 1.3             |                    |
@@ -206,7 +206,7 @@ L7    | VCC2 | Power         | 2.0         | 2.6             |                  
 L8    | IN3  | Signal        | 1.0         | 1.3             |                    |
       |      | Core          |             | 4.0             | 3.6                |
 L9    | GND3 | Ground        | 1.0         | 1.3             |                    |
-      |      | PrePreg		 |             | 7.7             | 4.0                |
+      |      | PrePreg		   |             | 7.7             | 4.0                |
 L10   | IN4  | Signal        | 1.0         | 1.3             |                    |
       |      | Core          |             | 4.0             | 3.6                |
 L11   | GND4 | Ground        | 1.0         | 1.3             |                    |
