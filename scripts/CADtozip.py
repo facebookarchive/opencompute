@@ -1,5 +1,4 @@
-# Created by Yael Maguire yael@fb.com
-# v1.0, 4/24/2011
+#(c) Copyright Facebook, Inc. 2011. All rights reserved.
 
 import zipfile
 from os import mkdir,rmdir
