@@ -2,7 +2,7 @@ import getopt, os, sys
 """
 This script processes an opencompute multimarkdown file and converts it into a multipage pdf
 
-yael@fb.com
+(c) Copyright Facebook, Inc. 2011. All rights reserved.
 
 """
 
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     sys.exit(2)
 
   mmdcmd='mmd2tex '
-  pdfcmd='xelatex -interaction=batchmode '
+  pdfcmd='xelatex ' #-interaction=batchmode '
 
   for o, a in opts:
     if o in ("-f","--file"):

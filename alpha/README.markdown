@@ -10,7 +10,7 @@ Within the <project>/spec directory:
 
     ../../alpha/gitmg2pdf.py -f <spec file>
 
-## Requirements
+## Requirements [INCOMPLETE]
 
 You need [xelatex](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=xetex) installed on your system, with all the latex extras.
 
