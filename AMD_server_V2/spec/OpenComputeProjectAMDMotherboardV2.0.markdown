@@ -8,7 +8,7 @@ latex footer:       mmd-memoir-footer
 
 ![][header1]
 
-[header1]: ../images/OCPlogo_vert.png
+[header1]: ../../alpha/images/OCPlogo_vert.png
 
 Open Compute Project AMD Motherboard Hardware v2.0
 ==========================================================
